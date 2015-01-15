@@ -1,0 +1,8 @@
+
+function index(r){
+    var res = r.respone
+    
+    res.write('hello,fibjs')
+}
+
+module.exports = index;

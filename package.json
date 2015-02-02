@@ -1,17 +1,18 @@
 {
-  "name": "coolshop",
-  "version": "1.0.0",
-  "description": "just anthoer e-shop",
-  "main": "app.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "coolier",
-  "license": "MIT",
-  "dependencies": {
-    "ejs": "~1.0.0"
-  }
+    "name": "coolshop",
+    "version": "1.0.0",
+    "description": "just anthoer e-shop",
+    "main": "app.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "coolier",
+    "license": "MIT",
+    "dependencies": {
+        "handlebars": "2.0.0",
+        "handlebars-layouts":  "1.0.0"
+    }
 }

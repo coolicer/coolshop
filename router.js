@@ -3,8 +3,8 @@ var http = require('http')
 
 module.exports = new mq.Routing( {
     '^/static(/.*)': http.fileHandler('./static/'),
-    //'^/signup(/.*)': require('./controllers/signup').handler,
-    //'^/user(/.*)'  : require('./controllers/user').handler,
+    // '^/signup(/.*)': require('./controllers/signup').handler,
+    // '^/user(/.*)'  : require('./controllers/user').handler,
     '^/$'          : require('./controllers/index'),
     '^(.*)$'       : function(r){
                         var res = r.response

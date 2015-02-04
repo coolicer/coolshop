@@ -1,4 +1,4 @@
-var handlerbars = require('../lib/handlerbars')
+var handlebars = require('../lib/handlebars')
 
 function index(r) {
     var res = r.response
@@ -10,7 +10,7 @@ function index(r) {
             'banana'
         ]
     };
-    res.write(handlerbars.render('test.html', data))
+    res.write(handlebars.render('test.html', data))
 }
 
 module.exports = index;
